@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './style.css'
-import img from './img.JPG'
 
 
 class Top extends Component {
@@ -8,7 +7,7 @@ class Top extends Component {
         return (
             <div className="wrapper" >
             <div class="head-img">
-		<a href="profile" ><img src={img} alt="logo" /></a>
+		<a href="profile" ><img src="#" alt="" /></a>
 		<p><a href="profile">John Deo</a></p>
 	    </div>
         </div>
